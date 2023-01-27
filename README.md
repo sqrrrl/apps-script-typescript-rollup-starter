@@ -3,11 +3,12 @@
 This is a sample apps script starter project that enables use of modern
 JS tooling for both Apps Script and client-side development.
 
-The starter project uses
+The starter project uses:
 
 * Typescript
 * Rollup for bundling. This allows the use of ES modules as
   well as import NPM packages for both apps script and client-side scripts
+* Clasp to deploy to apps script
 * Lit for client-side Web Components
 * Example of displaying HTML UIs in bound scripts and editor add-ons
 * OAuth example code 
