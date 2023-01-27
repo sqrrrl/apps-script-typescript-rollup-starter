@@ -16,7 +16,7 @@
 
 import { getHostApp } from './utils';
 
-// Rexport exposed oauth methods
+// Re-export exposed oauth methods
 export { authCallback, disconnect, getAuthorizationState} from './oauth';
 
 /**
@@ -35,7 +35,7 @@ export function onOpen() {
 
 /**
  * Runs when the add-on is installed; calls onOpen() to ensure menu creation and
- * any other initializion work is done immediately.
+ * any other initialization work is done immediately.
  */
 export function onInstall() {
   onOpen();

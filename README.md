@@ -3,9 +3,9 @@
 This is a sample apps script starter project that enables use of modern
 JS tooling for both Apps Script and client-side development.
 
-The starter project uses:
+The starter project demonstrates:
 
-* Typescript
+* Typescript for Apps Script & client-side scripts
 * Rollup for bundling. This allows the use of ES modules as
   well as import NPM packages for both apps script and client-side scripts
 * Clasp to deploy to apps script
@@ -35,7 +35,7 @@ For production:
 npm i
 ```
 
-1. Buid the app:
+1. Build the app:
 
 ```sh
 npm run build
@@ -60,7 +60,7 @@ Use `npm run deploy:watch` to run in watch mode. The add-on will
 be continually built and deployed to the development script whenever
 local files are changed.
 
-## Projecct structure
+## Project structure
 
 * `./pages/` contains client-side HTML, javascript, and CSS files.
 * `./server/` contains apps-script code executed server side
